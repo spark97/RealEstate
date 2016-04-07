@@ -1,0 +1,198 @@
+body{
+	/*background-color: #EFF0DF;*/
+	background-color: white;
+}
+p{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navbar-inverse{
+	/*background: rgba(87, 180, 255, 0.8);*/
+	/*background: rgba(115,13,25,.6);*/
+	background: rgba(78, 197, 241, .8);
+	height: 100px;
+	/*border-color: #4EC5F1;
+	border-radius: 0;*/
+	border-style: none;
+	position: relative;
+	z-index: 30;
+}
+.navbar-brand{
+	font-family: 'Lobster', cursive;
+
+}
+
+.navc{
+	margin-top: 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+}
+	
+	.navbar-inverse .navbar-nav .active > a{
+ 	background-color:white;
+ 	color: #00A3E4;
+ 	font-weight: bold;
+ 	
+ }
+ .navbar-inverse .navbar-nav  .active > a:focus{
+ 	background-color: white;
+ 	color:#00A3E4;
+ }
+
+ .navbar-inverse .navbar-nav  .active > a:hover{
+ 	background-color: white;
+ 	color:#00A3E4;
+ }
+
+ .navbar-inverse .navbar-nav > li:hover > a{
+ 	background: rgba(78, 140, 241, .5);
+ }
+
+.popup{
+	display: none;
+	position: absolute;
+	z-index: 100;
+	background:rgb(247,247,247,1);
+	width:30%;
+	margin-left: 35%;
+	min-height:240px;
+	animation-name: example;
+    animation-duration: 4s;
+}
+.pophead a{
+	position: absolute;
+	right: 5%;
+	top: 9%;
+	z-index: 200;
+	color: white;
+	font-size: 16px;
+}
+.labels label{
+	width: 90px;
+	margin-left: 7%;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.form-inline{
+	margin-top: 5%;
+}
+.form-inline .form-control{
+	width: 60%;
+}
+.form-inline .btn {
+	margin-left: 40%;
+}
+
+.tab-content{
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	background:rgba(247,247,247,.6);
+	padding: 10px;
+	
+}
+
+.nav > .nav-tabs > li > a{
+	color: white;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+
+.input{
+	margin-left: 10px;
+	width: 85%;
+}
+
+
+.cityname{
+	position: absolute;
+	width: 30%;
+	top: 0;
+	left: 35%; 
+	
+}
+
+.cityname p{
+	font-family: 'Pacifico', cursive;
+	font-size: 48px;
+  	color: white;
+  	padding: 10px; 
+  	padding-top: 20px;
+	text-align: center;
+	text-shadow: 0px 0px 6px #8C6599;*/
+	
+}
+
+.flatimg{
+	background-color: #F7F7F7;
+	height: 610px;
+	border: 1px solid ;
+	
+
+	
+}
+
+.flatdetails{
+	background-color: #F7F7F7;
+	height: 610px;
+	border-top:1px solid;
+	border-bottom:1px solid;
+}
+
+.chatbox{
+	background-color: #F7F7F7;
+	height: 610px;
+	border: 1px solid;
+}
+
+.img{
+	
+	height:285px;
+	background-color: #F7F7F7;
+	margin: 10px;
+}
+.imgsize{
+	width: 242.5px;
+	height: 285px;
+}
+
+.chathead{
+	height: 7%;
+	text-align: center;
+}
+
+.textarea{
+	margin-top: 2%;
+	height: 75%;
+	border:1px solid;
+}
+
+.textenter{
+	height: 7%;
+}
+
+input{
+	height: 38px;
+}
+
+.map{
+	min-height: 400px;
+}
+
+.foot a{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 15px;
+}
+
+.foot a:hover{
+	font-weight: 900;
+	color:white; 
+}
+
+.foot p{
+	margin: 10px 10px 10px;
+}

@@ -1,0 +1,195 @@
+body{
+	/*background-color: #EFF0DF;*/
+	background-color: white;
+	
+}
+p{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navbar-inverse{
+	/*background: rgba(87, 180, 255, 0.8);*/
+	/*background: rgba(115,13,25,.6);*/
+	background: rgba(78, 197, 241, .8);
+	height: 100px;
+	/*border-color: #4EC5F1;
+	border-radius: 0;*/
+	border-style: none;
+	position: relative;
+	z-index: 30;
+}
+.navbar-brand{
+	font-family: 'Lobster', cursive;
+
+}
+
+.navc{
+	margin-top: 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+}
+	
+	.navbar-inverse .navbar-nav .active > a{
+ 	background-color:white;
+ 	color: #00A3E4;
+ 	font-weight: bold;
+ 	
+ }
+ .navbar-inverse .navbar-nav  .active > a:focus{
+ 	background-color: white;
+ 	color:#00A3E4;
+ }
+
+ .navbar-inverse .navbar-nav  .active > a:hover{
+ 	background-color: white;
+ 	color:#00A3E4;
+ }
+
+ .navbar-inverse .navbar-nav > li:hover > a{
+ 	background: rgba(78, 140, 241, .5);
+ }
+
+.popup{
+	display: none;
+	position: absolute;
+	z-index: 100;
+	background:rgb(247,247,247,1);
+	width:30%;
+	margin-left: 35%;
+	min-height:240px;
+	animation-name: example;
+    animation-duration: 4s;
+}
+.pophead a{
+	position: absolute;
+	right: 5%;
+	top: 9%;
+	z-index: 200;
+	color: white;
+	font-size: 16px;
+}
+.labels label{
+	width: 90px;
+	margin-left: 7%;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.form-inline{
+	margin-top: 5%;
+}
+.form-inline .form-control{
+	width: 60%;
+}
+.form-inline .btn {
+	margin-left: 40%;
+}
+
+.tab-content{
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	background:rgba(247,247,247,.6);
+	padding: 10px;
+	
+}
+
+.nav > .nav-tabs > li > a{
+	color: white;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+
+.input{
+	margin-left: 10px;
+	width: 85%;
+}
+
+
+.filterbox{
+	/*background-color: #F7F7F7;*/
+	min-height: 72%;
+	width: 21%;
+	margin-top:10%;
+	position: absolute;
+	z-index: 400;
+}
+
+.bg1{
+	/* linear-gradient( rgba(78, 197, 241, .5), rgba(78, 197, 241, .5) ),*/
+	/*background: linear-gradient( rgba(115,13,25,.4), rgba(115,13,25,.4) ), url('../img/delhibg.jpg');*/
+	background-repeat: no-repeat;
+	min-height: 450px;
+	
+	position: relative;
+	margin-top: -120px;
+	z-index: 20;
+}
+
+
+.cityname{
+	position: absolute;
+	width: 30%;
+	top: 0;
+	left: 35%; 
+	
+}
+
+.cityname p{
+	font-family: 'Pacifico', cursive;
+	font-size: 48px;
+  	color: white;
+  	padding: 10px; 
+  	padding-top: 20px;
+	text-align: center;
+	text-shadow: 0px 0px 6px #8C6599;*/
+	
+}
+
+
+.thumbnail{
+	background-color: #F7F7F7;
+	border-color: #00A3E4;
+	border-width: 1px;
+	border-radius: 4px;
+	float: left;
+}
+
+.searchflat{
+	color:#00A3E4;
+	background-color: white;
+	border-color: #00A3E4;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2px;
+	margin-top:20px;
+}
+
+.searchflat:hover{
+	background-color: #00A3E4;
+	color: white;
+}
+
+.flatlist{
+	box-shadow: 2px 2px 4px #555;
+	width: 99%;
+	margin-top: 2%;
+	height: 400px;
+}
+
+.foot a{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 15px;
+}
+
+.foot a:hover{
+	font-weight: 900;
+	color:white; 
+}
+
+.foot p{
+	margin: 10px 10px 10px;
+}

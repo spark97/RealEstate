@@ -1,0 +1,14 @@
+.view {
+	overflow: hidden;
+}
+
+.view:hover img {
+	left: -85px;
+}
+
+.view div.view-back {
+	background: #00A3E4;
+	border-color: #00A3E4;
+	border-style: solid;
+	border-width: 1.5px;
+}

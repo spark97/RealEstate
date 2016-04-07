@@ -1,0 +1,72 @@
+#chatcontainer{
+	position: fixed;
+	z-index:10000;
+	top:35%;
+	width:20%;
+	transition: 1s;
+	right:-226px;
+
+
+}
+
+#chatpop{
+	
+	min-height:300px; 
+	border-radius:0;
+
+}
+
+#chatlist{
+	overflow-y:scroll;
+	height:250px;
+}
+
+#chatbut{
+	position: relative;
+	left:-16%;
+	background-color: #337AB7;
+	color: white;
+	padding: 7.5px 13px;
+	font-size: 24px;
+	
+}
+.nopadding{
+	padding: 0;
+	margin: 0;
+}
+
+
+#chatpophead{
+	border-radius:0;
+}
+
+.xyz{
+   transition: 1s;
+    margin-right: 226px;
+    position: relative;
+ 
+}
+
+
+/*.chatbox{
+	background-color: #F7F7F7;
+	height: 610px;
+	border: 1px solid;
+}
+
+.chathead{
+	height: 7%;
+	text-align: center;
+}
+
+.textarea{
+	margin-top: 2%;
+	height: 75%;
+	border:1px solid;
+}
+
+.textenter{
+	height: 7%;
+}*/
+
+

@@ -1,0 +1,294 @@
+
+body{
+	/*background-color: #EFF0DF;*/
+	background-color: white;
+}
+p{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navbar-inverse{
+	/*background: rgba(87, 180, 255, 0.8);*/
+	background: rgba(78, 197, 241, .3);
+	height: 100px;
+	/*border-color: #4EC5F1;
+	border-radius: 0;*/
+	border-style: none;
+	position: relative;
+	z-index: 30;
+}
+.navbar-brand{
+	font-family: 'Lobster', cursive;
+
+}
+
+.navc{
+	margin-top: 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+}
+.navbar-inverse .navbar-nav .active > a{
+ 	background-color:white;
+ 	color: #00A3E4;
+ 	font-weight: bold;
+ 	
+ }
+ .navbar-inverse .navbar-nav  .active > a:focus{
+ 	background-color: white;
+ 	color:#00A3E4;
+ }
+
+ .navbar-inverse .navbar-nav  .active > a:hover{
+ 	background-color: white;
+ 	color:#00A3E4;
+ }
+
+ .navbar-inverse .navbar-nav > li:hover > a{
+ 	background: rgba(78, 140, 241, .5);
+ }
+
+
+.navbar-inverse .navbar-nav .dropdown a:focus{
+	background: rgba(78, 140, 241, .5);
+}
+
+
+.popup{
+	display: none;
+	position: absolute;
+	z-index: 100;
+	background:rgb(247,247,247,1);
+	width:30%;
+	margin-left: 35%;
+	min-height:240px;
+	
+}
+.pophead a{
+	position: absolute;
+	right: 5%;
+	top: 9%;
+	z-index: 200;
+	color: white;
+	font-size: 16px;
+}
+.labels label{
+	width: 110px;
+	margin-left: 7%;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.form-inline{
+	margin-top: 5%;
+}
+.form-inline .form-control{
+	width: 60%;
+}
+.form-inline .btn {
+	margin-left: 40%;
+}
+
+.tab-content{
+	border-color: #00A3E4;
+	border-width: 1px;
+
+	border-style: solid;
+	background:rgba(247,247,247,.6);
+	padding: 10px;
+	
+}
+.nav-tabs > li > a {
+    border: 1px solid #00A3E4;
+    border-bottom:0px;
+    color: #00A3E4;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+	border: 1px solid #00A3E4;
+    color: #00A3E4;
+  	border-bottom:0; 
+}
+
+.nav > .nav-tabs > li > a{
+	color: white;
+}
+
+.input{
+	margin-left: 10%;
+	width: 75%;
+}
+
+
+.bg{
+	/* linear-gradient( rgba(78, 197, 241, .5), rgba(78, 197, 241, .5) ),*/
+	background: linear-gradient( rgba(78, 197, 241, .4), rgba(78, 197, 241, .4) ), url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	min-height: 550px;
+	background-size: cover;
+	position: relative;
+	margin-top: -120px;
+	z-index: 20;
+}
+
+
+.navbar-form{
+	margin-left: 140px;
+	margin-top: 100px;
+	opacity:.7;
+	height: 70px; 
+	position: relative;
+	z-index: 200;
+}
+
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+
+
+.searchbar{
+	width: 300px;
+}
+
+.navbar-form .form-control {
+	width: 300px;
+}
+
+.submit{
+	opacity: .5;
+	border-width: 1px;
+}
+
+
+ #mycarousel {
+	text-align: center;
+	min-height: 270px;
+	margin-top: 70px;
+
+}
+
+.carousel-control.left{
+ background-image: none;
+}
+.carousel-control.right{
+background-image: none;
+}
+
+.carousel-inner p{
+	color: white;
+}
+
+.carousel-inner h2{
+	font-size: 45px;
+	color: #222;
+	font-weight: bolder;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.cl1{
+	height: 600px;
+	background-color: #00A3E4;
+}
+
+.row-no-padding{
+	padding: 0;
+	margin: 0;
+}
+
+.climg{
+	height: 300px;
+	/*margin-left: -15px;*/
+	background-color: white;
+}
+.cltext{
+	height: 300px;
+	background-color: #F7F7F7;
+}
+.cltext p{
+	font-size: 17px;
+}
+
+.trending{
+	min-height:575px; 
+
+}
+
+.glyphicon-hand-right{
+	margin-top: 30px; 
+}
+
+.infobox{
+	padding: 10px;
+}
+.infobox h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #00A3E4;
+}
+.infobox p{
+	color:#7f7f7f;
+}
+
+.h2{
+	color: #00A3E4;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+hr{
+	margin-top: -3px;
+	border-color: #00A3E4;
+	border-style: solid;
+}
+.footer{
+	margin-left: 625px;
+}
+
+
+
+.cityname{
+	position: absolute;
+	left:5%;
+	bottom: 5%;
+	font-family: opensans-bold;
+	color:white;
+	font-size: 18px;
+	font-weight: bold;
+}
+.tint {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+}
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0, 0.7);
+  transition: all .3s linear;
+}
+.tint:hover:before{
+	background: none;
+}
+.imgcol{
+	width:22%;
+}
+
+.foot a{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 15px;
+}
+
+.foot a:hover{
+	font-weight: 900;
+	color:white; 
+}

@@ -1,0 +1,341 @@
+<div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-md-12 cl del"><span>Delhi</span></div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 cl mum"><span>Mumbai</span></div>
+            </div>
+          </div>
+
+          <div class="row">
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-md-12 cl bang"><span>Bangalore</span></div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 cl chen"><span>Chennai</span></div>
+            </div>
+          </div>
+
+          <div class="row">
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-md-12 cl ahem"><span>Ahemdabad</span></div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 cl jai"><span>Jaipur</span></div>
+            </div>
+          </div>
+
+          <div class="row">
+          <div class="col-lg-3">
+            <div class="row">
+              <div class="col-md-12 cl hyd"><span>Hyderabad</span></div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 cl kol"><span>Kolkata</span></div>
+            </div>
+          </div>
+
+          
+
+        </div>
+    </div>
+   <div class="container" style="margin-top:5%">
+    <h2 class="h2" style="color:#8C6599;">Top Trending</h2>
+    <hr>
+    </div>
+
+    <div class="jumbotron trending">
+    <div id="grid" class="main">
+
+        <div class="view">
+
+  <div class="view-back">
+    <span class="glyphicon glyphicon-home"></span>
+      <span><font size="2" style="margin-right:-10px;"><b>Available</b></font><br><p style="font-size:13px;margin-top:-5px;"><b>Flats</b></p></font></span>
+      <span class="houseno"><font size="2">124</font></span>
+      <span class="glyphicon glyphicon-hand-right"></span>
+  </div>
+    <img src="img/delhi.jpg" />
+  <div class="slice s1" style="background-image: url(img/delhi.jpg); ">
+    <span class="overlay"></span>
+    
+    <div class="slice s2" style="background-image: url(img/delhi.jpg); ">
+      <span class="overlay"></span>
+      
+      <div class="slice s3" style="background-image: url(img/delhi.jpg); ">
+        <span class="overlay"></span>
+        
+        <div class="slice s4" style="background-image: url(img/delhi.jpg); ">
+          <span class="overlay"></span>
+          
+          <div class="slice s5" style="background-image: url(img/delhi.jpg); ">
+            <span class="overlay"></span>
+          </div><!-- /s5 -->
+        
+        </div><!-- /s4 -->
+          
+      </div><!-- /s3 -->
+        
+    </div><!-- /s2 -->
+      
+  </div><!-- /s1 -->
+  
+</div><!-- /view -->
+
+   <div class="view">
+
+<div class="view-back">
+    <span class="glyphicon glyphicon-home"></span>
+      <span><font size="2" style="margin-right:-10px;"><b>Available</b></font><br><p style="font-size:13px;margin-top:-5px;"><b>Flats</b></p></font></span>
+      <span class="houseno"><font size="2">124</font></span>
+      <span class="glyphicon glyphicon-hand-right"></span>
+  </div>
+    <img src="img/mumbai.jpg" />
+  <div class="slice s1" style="background-image: url(img/mumbai.jpg); ">
+    <span class="overlay"></span>
+    
+    <div class="slice s2" style="background-image: url(img/mumbai.jpg); ">
+      <span class="overlay"></span>
+      
+      <div class="slice s3" style="background-image: url(img/mumbai.jpg); ">
+        <span class="overlay"></span>
+        
+        <div class="slice s4" style="background-image: url(img/mumbai.jpg); ">
+          <span class="overlay"></span>
+          
+          <div class="slice s5" style="background-image: url(img/mumbai.jpg); ">
+            <span class="overlay"></span>
+          </div><!-- /s5 -->
+        
+        </div><!-- /s4 -->
+          
+      </div><!-- /s3 -->
+        
+    </div><!-- /s2 -->
+      
+  </div><!-- /s1 -->
+  
+</div><!-- /view -->
+
+
+<div class="view">
+
+  <div class="view-back">
+    <span class="glyphicon glyphicon-home"></span>
+      <span><font size="2" style="margin-right:-10px;"><b>Available</b></font><br><p style="font-size:13px;margin-top:-5px;"><b>Flats</b></p></font></span>
+      <span class="houseno"><font size="2">124</font></span>
+      <span class="glyphicon glyphicon-hand-right"></span>
+  </div>
+    <img src="img/banglore.jpg" />
+  <div class="slice s1" style="background-image: url(img/banglore.jpg); ">
+    <span class="overlay"></span>
+    
+    <div class="slice s2" style="background-image: url(img/banglore.jpg); ">
+      <span class="overlay"></span>
+      
+      <div class="slice s3" style="background-image: url(img/banglore.jpg); ">
+        <span class="overlay"></span>
+        
+        <div class="slice s4" style="background-image: url(img/banglore.jpg); ">
+          <span class="overlay"></span>
+          
+          <div class="slice s5" style="background-image: url(img/banglore.jpg); ">
+            <span class="overlay"></span>
+          </div><!-- /s5 -->
+        
+        </div><!-- /s4 -->
+          
+      </div><!-- /s3 -->
+        
+    </div><!-- /s2 -->
+      
+  </div><!-- /s1 -->
+  
+</div><!-- /view -->
+
+
+  <div class="view">
+
+  <div class="view-back">
+    <span class="glyphicon glyphicon-home"></span>
+      <span><font size="2" style="margin-right:-10px;"><b>Available</b></font><br><p style="font-size:13px;margin-top:-5px;"><b>Flats</b></p></font></span>
+      <span class="houseno"><font size="2">124</font></span>
+      <span class="glyphicon glyphicon-hand-right"></span>
+  </div>
+    <img src="img/jaipur.jpg" />
+  <div class="slice s1" style="background-image: url(img/jaipur.jpg); ">
+    <span class="overlay"></span>
+    
+    <div class="slice s2" style="background-image: url(img/jaipur.jpg); ">
+      <span class="overlay"></span>
+      
+      <div class="slice s3" style="background-image: url(img/jaipur.jpg); ">
+        <span class="overlay"></span>
+        
+        <div class="slice s4" style="background-image: url(img/jaipur.jpg); ">
+          <span class="overlay"></span>
+          
+          <div class="slice s5" style="background-image: url(img/jaipur.jpg); ">
+            <span class="overlay"></span>
+          </div><!-- /s5 -->
+        
+        </div><!-- /s4 -->
+          
+      </div><!-- /s3 -->
+        
+    </div><!-- /s2 -->
+      
+  </div><!-- /s1 -->
+  
+</div><!-- /view -->
+
+<div class="view">
+
+  <div class="view-back">
+    <span class="glyphicon glyphicon-home"></span>
+      <span><font size="2" style="margin-right:-10px;"><b>Available</b></font><br><p style="font-size:13px;margin-top:-5px;"><b>Flats</b></p></font></span>
+      <span class="houseno"><font size="2">124</font></span>
+      <span class="glyphicon glyphicon-hand-right"></span>
+  </div>
+    <img src="img/ahemdabad.jpg" />
+  <div class="slice s1" style="background-image: url(img/ahemdabad.jpg); ">
+    <span class="overlay"></span>
+    
+    <div class="slice s2" style="background-image: url(img/ahemdabad.jpg); ">
+      <span class="overlay"></span>
+      
+      <div class="slice s3" style="background-image: url(img/ahemdabad.jpg); ">
+        <span class="overlay"></span>
+        
+        <div class="slice s4" style="background-image: url(img/ahemdabad.jpg); ">
+          <span class="overlay"></span>
+          
+          <div class="slice s5" style="background-image: url(img/ahemdabad.jpg); ">
+            <span class="overlay"></span>
+          </div><!-- /s5 -->
+        
+        </div><!-- /s4 -->
+          
+      </div><!-- /s3 -->
+        
+    </div><!-- /s2 -->
+      
+  </div><!-- /s1 -->
+  
+</div><!-- /view -->
+
+<div class="view">
+
+  <div class="view-back">
+    <div class="view-back">
+    <span class="glyphicon glyphicon-home"></span>
+      <span><font size="2" style="margin-right:-10px;"><b>Available</b></font><br><p style="font-size:13px;margin-top:-5px;"><b>Flats</b></p></font></span>
+      <span class="houseno"><font size="2">124</font></span>
+      <span class="glyphicon glyphicon-hand-right"></span>
+  </div>
+  </div>
+    <img src="img/kolkata.jpg" />
+  <div class="slice s1" style="background-image: url(img/kolkata.jpg); ">
+    <span class="overlay"></span>
+    
+    <div class="slice s2" style="background-image: url(img/kolkata.jpg); ">
+      <span class="overlay"></span>
+      
+      <div class="slice s3" style="background-image: url(img/kolkata.jpg); ">
+        <span class="overlay"></span>
+        
+        <div class="slice s4" style="background-image: url(img/kolkata.jpg); ">
+          <span class="overlay"></span>
+          
+          <div class="slice s5" style="background-image: url(img/kolkata.jpg); ">
+            <span class="overlay"></span>
+          </div><!-- /s5 -->
+        
+        </div><!-- /s4 -->
+          
+      </div><!-- /s3 -->
+        
+    </div><!-- /s2 -->
+      
+  </div><!-- /s1 -->
+  
+</div><!-- /view -->
+
+
+<div class="view">
+
+ <div class="view-back">
+    <span class="glyphicon glyphicon-home"></span>
+      <span><font size="2" style="margin-right:-10px;"><b>Available</b></font><br><p style="font-size:13px;margin-top:-5px;"><b>Flats</b></p></font></span>
+      <span class="houseno"><font size="2">124</font></span>
+      <span class="glyphicon glyphicon-hand-right"></span>
+  </div>
+    <img src="img/hyderabad.jpg" />
+  <div class="slice s1" style="background-image: url(img/hyderabad.jpg); ">
+    <span class="overlay"></span>
+    
+    <div class="slice s2" style="background-image: url(img/hyderabad.jpg); ">
+      <span class="overlay"></span>
+      
+      <div class="slice s3" style="background-image: url(img/hyderabad.jpg); ">
+        <span class="overlay"></span>
+        
+        <div class="slice s4" style="background-image: url(img/hyderabad.jpg); ">
+          <span class="overlay"></span>
+          
+          <div class="slice s5" style="background-image: url(img/hyderabad.jpg); ">
+            <span class="overlay"></span>
+          </div><!-- /s5 -->
+        
+        </div><!-- /s4 -->
+          
+      </div><!-- /s3 -->
+        
+    </div><!-- /s2 -->
+      
+  </div><!-- /s1 -->
+  
+</div><!-- /view -->
+
+  
+  <div class="view">
+
+  <div class="view-back">
+    <span class="glyphicon glyphicon-home"></span>
+      <span><font size="2" style="margin-right:-10px;"><b>Available</b></font><br><p style="font-size:13px;margin-top:-5px;"><b>Flats</b></p></font></span>
+      <span class="houseno"><font size="2">124</font></span>
+      <span class="glyphicon glyphicon-hand-right"></span>
+  </div>
+    <img src="img/chennai.jpg" />
+  <div class="slice s1" style="background-image: url(img/chennai.jpg); ">
+    <span class="overlay"></span>
+    
+    <div class="slice s2" style="background-image: url(img/chennai.jpg); ">
+      <span class="overlay"></span>
+      
+      <div class="slice s3" style="background-image: url(img/chennai.jpg); ">
+        <span class="overlay"></span>
+        
+        <div class="slice s4" style="background-image: url(img/chennai.jpg); ">
+          <span class="overlay"></span>
+          
+          <div class="slice s5" style="background-image: url(img/chennai.jpg); ">
+            <span class="overlay"></span>
+          </div><!-- /s5 -->
+        
+        </div><!-- /s4 -->
+          
+      </div><!-- /s3 -->
+        
+    </div><!-- /s2 -->
+      
+  </div><!-- /s1 -->
+  
+</div><!-- /view -->
+    </div><!-- end of grid -->
+
+    </div>

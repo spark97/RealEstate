@@ -1,0 +1,62 @@
+.navbar-inverse{
+	background:rgba(78, 197, 241, 0.8) none repeat scroll 0% 0%;
+}
+.foot a{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 15px;
+}
+
+.foot a:hover{
+	font-weight: 900;
+	color:white; 
+}
+
+.foot p{
+	margin: 10px 10px 10px;
+}
+ .head h1{
+ 	text-align: center;
+ }
+
+ .head h1::before{
+ 	width: 200px;
+height: 1px;
+display: inline-block;
+vertical-align: middle;
+content: "";
+background: #8C6599 none repeat scroll 0% 0%;
+margin: 0px 1%;
+ }
+
+
+ .head h1::after{
+ 	width: 200px;
+height: 1px;
+display: inline-block;
+vertical-align: middle;
+content: "";
+background: #8C6599 none repeat scroll 0% 0%;
+margin: 0px 1%;
+ }
+
+.contact-right input[type="text"], .contact-right textarea {
+    padding: 0.8em 1em;
+    font-size: 0.85em;
+    margin: 0px 0px 0.8em;
+    border: 1px solid #A3A3A3;
+    color: #A3A3A3;
+    background: transparent none repeat scroll 0% 0%;
+    outline: medium none;
+    width: 100%;
+}
+
+p{
+	font-size:18px;
+}
+
+.panel-primary{
+	border-radius:0px;
+}
+.panel-heading{
+	border-radius: 0;
+}

@@ -1,0 +1,421 @@
+body{
+	/*background-color: #EFF0DF;*/
+	background-color: white;
+}
+p{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.nopadding{
+	padding:0;
+	margin:0;
+	padding-left:2%;
+}
+
+.navbar-inverse{
+	/*background: rgba(87, 180, 255, 0.8);*/
+	/*background: rgba(115,13,25,.6);*/
+	background: rgba(78, 197, 241, .8);
+	height: 100px;
+	/*border-color: #4EC5F1;
+	border-radius: 0;*/
+	border-style: none;
+	position: relative;
+	z-index: 30;
+}
+.navbar-brand{
+	font-family: 'Lobster', cursive;
+
+}
+
+.navc{
+	margin-top: 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+}
+	
+	.navbar-inverse .navbar-nav .active > a{
+ 	background-color:white;
+ 	color: #00A3E4;
+ 	font-weight: bold;
+ 	
+ }
+ .navbar-inverse .navbar-nav  .active > a:focus{
+ 	background-color: white;
+ 	color:#00A3E4;
+ }
+
+ .navbar-inverse .navbar-nav  .active > a:hover{
+ 	background-color: white;
+ 	color:#00A3E4;
+ }
+
+ .navbar-inverse .navbar-nav > li:hover > a{
+ 	background: rgba(78, 140, 241, .5);
+ }
+
+.popup{
+	display: none;
+	position: absolute;
+	z-index: 100;
+	background:rgb(247,247,247,1);
+	width:30%;
+	margin-left: 35%;
+	min-height:240px;
+	animation-name: example;
+    animation-duration: 4s;
+}
+.pophead a{
+	position: absolute;
+	right: 5%;
+	top: 9%;
+	z-index: 200;
+	color: white;
+	font-size: 16px;
+}
+.labels label{
+	width: 110px;
+	margin-left: 7%;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.form-inline{
+	margin-top: 5%;
+}
+.form-inline .form-control{
+	width: 60%;
+}
+.form-inline .btn {
+	margin-left: 40%;
+}
+
+.tab-content{
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	background:rgba(247,247,247,.6);
+	padding: 10px;
+	
+}
+
+.nav > .nav-tabs > li > a{
+	color: white;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+
+.input{
+	margin-left: 10px;
+	width: 85%;
+}
+
+#maincontainer{
+	height: auto;
+}
+
+
+
+
+
+.generaldetailsedit{
+	/*background-color: #F7F7F7;*/
+	background:white;
+	height: 620px;
+	position: relative;
+	z-index: 200;
+	display: none;
+	padding: 10px;
+}
+
+
+.generaldetails{
+	/*background-color: #F7F7F7;*/
+	background:white;
+	height: 610px;
+	position: relative;
+	z-index: 100;
+	padding: 10px;
+
+}
+
+.notificationdetails{
+	/*background-color: #F7F7F7;*/
+	background:white;
+	height: 610px;
+	position: relative;
+	z-index: 300;
+	display: none;
+	padding: 20px;
+
+}
+.arrow{
+	position: absolute;
+	z-index:400;
+	left:-90%;
+	top: -5px;
+	margin: 0;
+	width: 100px;
+	height: 80px;
+	background-color: transparent;
+}
+.arrow-before{
+	width: 50%;
+	height: 100%;
+	background-color: #565F78;
+	/* box-shadow: 0px 0px 0px 4px #565F78;
+	border:2px dashed white;
+	border-left-style: none;*/
+	
+}
+.arrow-before p{
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 20%;
+	padding-left: 10%;
+	color: white;
+}
+.arrow-head-container{
+	width: 40%;
+	float:right;
+	height: 100%;
+	background-color: transparent;
+	position: absolute;
+	top:0;
+	left:50%;
+	z-index: 400;
+}
+.arrow-head{
+
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 40px 0 40px 30px;
+border-color: transparent transparent transparent #565F78;
+}
+.flatlist{
+	border:1px dashed #565F78;
+	margin-top: 5%;
+	padding: 10px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background:#F7F7F7;
+}
+.flatlist1{
+	border:1px dashed #C42540;
+	margin-top: 5%;
+	padding: 10px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background:#F7F7F7;
+}
+.flatlist1 .arrow-head{
+	width: 0;
+height: 0;
+border-style: solid;
+border-width: 40px 0 40px 30px;
+border-color: transparent transparent transparent #C42540;
+}
+.flatlist1 .arrow-before{
+	width: 50%;
+	height: 100%;
+	background-color: #C42540;
+}
+
+.flatlistcontainer{
+	height: 450px;
+	overflow-y:scroll;
+}
+
+.filterlistcontainer{
+	overflow-y:scroll;
+	height: 40%;
+}
+.filterlist{
+	border:1px dashed #565F78;
+	margin-top: 5%;
+	padding: 10px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background:#F7F7F7;
+
+}
+
+.selldetails{
+	/*background-color: #F7F7F7;*/
+	background-color: white;
+	/*height: 645px;*/
+	height: auto;
+	position: relative;
+	z-index: 300;
+	display: none;
+	padding: 20px;
+}
+
+.selldetails .tab-content > .active{
+	background-color: white;
+}
+
+.wlistdetails{
+	background-color: white;
+	height: 645px;
+	position: relative;
+	z-index: 300;
+	display: none;
+	padding: 20px;
+}
+
+.wlistlist{
+	border:1px dashed #565F78;
+	margin-top: 5%;
+	padding: 10px;
+	width: 90%;
+	background:#F7F7F7;
+	
+}
+
+.wlistcontainer{
+	height: 450px;
+	overflow-y:scroll;
+	margin-top:20px;
+	width:115%;
+}
+
+.tab-content{
+	background-color: white;
+	padding: 0px;
+	margin-top: -20px;
+	border-style: solid;
+	border-width: 1px;
+	border-left-color: #565F78;
+	border-right-color: #565F78;
+	border-bottom-color: #565F78;
+	border-top-style: none;
+}
+
+.nav-tabs{
+	border-bottom: 1px solid #565F78;
+}
+.nav-tabs > li > a{
+	border:1px solid;
+	border-color: transparent;
+	color: #565F78;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #565F78 #565F78 transparent;
+	background-color: #565F78;
+	color:white;
+}
+
+.active{
+	background-color:white;
+}
+
+.form-inline{
+	margin-top:10px;
+
+}
+
+.uploadlist{
+	border:1px dashed #565F78;
+	padding: 10px;
+	margin-top: 5%;
+	width: 90%;
+	margin-left: 8%;
+	margin-right: 5%;
+} 
+
+.uploadlistcontainer{
+	height: 450px;
+	overflow-y:scroll;
+	margin-top:20px;
+}
+
+.profilepic{
+	background:white;
+	/*background:#153F8C;*/
+	margin: 0px;
+
+
+}
+.imgsize{
+	width: 90%;
+	height: 90%;
+	border-radius: 50%;
+	margin:5%;
+
+}
+.profileinfo{
+	background-color: white;
+	height: auto;
+	width: 22%;
+	border:1px solid #777;
+	padding: 0;
+}
+
+.profileinfols{
+	width: 100%;
+
+	/*margin-left: auto;
+	margin-right: auto;*/
+
+}
+
+.profileinfols p{
+	color: #7F7F7F;
+	text-align: center;
+	font-size:20px;
+	margin: 0;
+	padding: 5%;
+
+}
+
+.profileinfols a{
+	text-decoration: none;
+}
+
+.profileinfols:hover{
+	background-color: #DBDBDB;
+}
+
+.active1{
+	/*background-color: #7097E0;*/
+	text-shadow: 0px -1px 0px #286090;
+background-image: linear-gradient(to bottom, #337AB7 0px, #2B669A 100%);
+background-repeat: repeat-x;
+border-color: #2B669A;
+}
+
+.active1 p{
+		color: white;
+}
+.foot{
+	/*top: 1070px;*/
+	position: relative;
+}
+
+.foot a{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 15px;
+}
+
+.foot a:hover{
+	font-weight: 900;
+	color:white; 
+}
+
+.foot p{
+	margin: 10px 10px 10px;
+}
+.footadjust{
+	top:350px;
+	position: relative;
+}
