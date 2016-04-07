@@ -1,2 +1,2 @@
 # RealEstate
-A Real Estate Website For Selling And Renting Flats using PhP,AJAX,BootStrap,CSS,Javascript.
+A Real Estate Website For Selling And Renting Flats Developed Using PhP, AJAX, BootStrap, CSS, Javascript.
